@@ -1,0 +1,35 @@
+pkgname=musl
+pkgver=1.2.2
+pkgdesc="the musl c library (libc) implementation"
+url="https://www.musl-libc.org/"
+arch="all"
+license="MIT"
+subpackages="$pkgname-dev"
+source="http://www.musl-libc.org/releases/musl-$pkgver.tar.gz"
+
+build() {
+	cd "$builddir"
+	CC=$CC ./configure \
+		--build=$CBUILD \
+		--host=$CHOST \
+		--target=$CTARGET \
+		--prefix=/usr \
+		--libdir=/usr/lib \
+		--syslibdir=/usr/lib \
+		--bindir=/usr/bin \
+		--sbindir=/usr/sbin
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--infodir=/usr/share/info \
+		--localstatedir=/var
+
+	make -j${JOBS}
+}
+
+package() {
+	cd "$builddir"
+
+	make DESTDIR="$pkgdir" install
+}
+
+b2sums="a000357ed52e417d8cebe5537df658dc0f8f02f2da3efcd79125544ad63e11e05fa96136551d0bfeb09a3f6c9a2260bffcfbd329ea92e6a7b62aa690f48968aa  musl-1.2.2.tar.gz"
