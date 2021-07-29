@@ -1,5 +1,6 @@
 pkgname=neofetch
 pkgver=master
+NO_TAR=1
 
 fetch() {
 	curl -L "https://github.com/dylanaraps/$pkgname/archive/refs/heads/$pkgver.zip" -o $pkgname-$pkgver.zip

@@ -20,23 +20,23 @@ build() {
 
 package() {
 	cd $pkgname-$pkgver
-	./make install DESTDIR=$pkgdir
-	rm -r $pkgdir/usr/share
-	rm -r $pkgdir/usr/include
+	./make install
+#	rm -r $pkgdir/usr/share
+#	rm -r $pkgdir/usr/include
 }
 
 package_doc() {
 	cd $pkgname-$pkgver
-	./make install DESDIR=$pkgdir
-	rm -r $pkgdir/usr/bin
-	rm -r $pkgdir/usr/share/info
-	rm -r $pkgdir/usr/include
+	./make install
+#	rm -r $pkgdir/usr/bin
+#	rm -r $pkgdir/usr/share/info
+#	rm -r $pkgdir/usr/include
 }
 package_dev() {
 	cd $pkgname-$pkgver
-	./make install DESTDIR=$pkgdir
-	rm -r $pkgdir/usr/bin
-	rm -r $pkgdir/usr/share
+	./make install
+#	rm -r $pkgdir/usr/bin
+#	rm -r $pkgdir/usr/share
 }
 
 license() {

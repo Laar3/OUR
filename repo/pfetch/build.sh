@@ -1,5 +1,6 @@
 pkgname=pfetch
 pkgver=master
+NO_TAR=1
 
 fetch() {
 	curl -L "https://github.com/dylanaraps/pfetch/archive/refs/heads/master.zip" -o $pkgname-$pkgver.zip
