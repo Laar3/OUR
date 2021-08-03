@@ -11,6 +11,7 @@ fetch() {
 build() {
 	cd $pkgname-$pkgver
 	CPUS=1 make defconfig
+	cp ../../.config ./
 	CPUS=1 make
 }
 
