@@ -14,7 +14,7 @@ build() {
 	cd $pkgname-$pkgver
 	mkdir build
 	cd build
-	make -G Ninja ../ \
+	cmake -G Ninja ../ \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
