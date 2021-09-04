@@ -1,6 +1,6 @@
 pkgname=neofetch
 pkgver=master
-NO_TAR=1
+LICENSE=LICENSE.md
 
 fetch() {
 	curl -L "https://github.com/dylanaraps/$pkgname/archive/refs/heads/$pkgver.zip" -o $pkgname-$pkgver.zip
@@ -19,5 +19,5 @@ package() {
 
 license() {
 	cd $pkgname-$pkgver
-	cat LICENSE.md
+	cat $LICENSE
 }

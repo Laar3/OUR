@@ -4,6 +4,7 @@ pkgrel=1
 deps="musl"
 bad="make"
 ext="doc:dev"
+LICENSE=COPYING
 
 fetch() {
 	curl "https://ftp.gnu.org/gnu/make/make-4.3.tar.gz" -o $pkgname-$pkgver.tar.gz
@@ -41,5 +42,5 @@ package_dev() {
 
 license() {
 	cd $pkgname-$pkgver
-	cat COPYING
+	cat $LICENSE
 }

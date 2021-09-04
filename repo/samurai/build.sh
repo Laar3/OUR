@@ -1,6 +1,6 @@
 pkgver=1.2
 pkgname=samurai
-pkgrel=1
+LICENSE=LICENSE
 
 fetch() {
 	curl -L "http://github.com/michaelforney/samurai/releases/download/1.2/$pkgname-$pkgver.tar.gz" -o $pkgname-$pkgver.tar.gz

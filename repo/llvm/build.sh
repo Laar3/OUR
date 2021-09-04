@@ -1,7 +1,6 @@
 pkgver=12.0.1
 pkgname=llvm
-bad=""
-ext="dev"
+LICENSE=LICENSE.TXT
 
 fetch() {
 	curl -L "https://github.com/llvm/llvm-project/releases/download/llvmorg-$pkgver/llvm-project-$pkgver.src.tar.xz" -o $pkgname-$pkgver.tar.gz
@@ -109,5 +108,5 @@ package() {
 
 license() {
 	cd $pkgname-$pkgver
-	cat */LICENSE.TXT
+	cat */$LICENSE
 }

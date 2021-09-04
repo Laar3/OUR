@@ -4,6 +4,7 @@ pkgname=curl
 pkgrel=1
 bad=""
 ext="doc:dev"
+LICENSE=COPYING
 
 fetch() {
 	curl -L "https://github.com/curl/curl/releases/download/curl-$pkg_ver/curl-$pkgver.tar.xz" -o $pkgname-$pkgver.tar.gz
@@ -44,5 +45,5 @@ package_dev() {
 
 license() {
 	cd $pkgname-$pkgver
-	cat COPYING
+	cat $LICENSE
 }

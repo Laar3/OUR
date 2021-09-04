@@ -1,9 +1,10 @@
 pkgname=uwuEdit
 pkgver=master
+LICENSE=LICENSE
 
 fetch() {
 	git clone https://github.com/breadtard/uwuTools
-	cp -r uwuTools/uwuEdit ./
+	cp -r uwuTools/$pkgname ./
 	rm -rf uwuTools
 }
 
@@ -19,5 +20,5 @@ package() {
 
 license() {
 	cd $pkgname
-	cat LICENSE
+	cat $LICENSE
 }
