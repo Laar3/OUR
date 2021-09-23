@@ -19,5 +19,5 @@ package() {
 
 license() {
 	cd $pkgname-$pkgver
-	cat LICENSE
+	cat $LICENSE
 }
