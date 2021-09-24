@@ -8,8 +8,8 @@ ext="doc"
 LICENSE=COPYING
 
 fetch() {
-	curl "https://github.com/OrangeOperatingSystems/git/archive/refs/heads/main.zip" -o $pkgname-$pkgver.zip
-	unzip $pkgname-$pkgver.zip
+	wget https://github.com/OrangeOperatingSystems/git/archive/refs/heads/main.zip
+	unzip $pkgver.zip
 }
 
 build() {
