@@ -21,10 +21,5 @@ package() {
 
 licence() {
   cd $pkgname-$pkgver
-  cat $licence
+  cat $LICENCE
 }
-
-fetch
-build
-package
-license
