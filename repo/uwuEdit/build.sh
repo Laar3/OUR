@@ -3,7 +3,7 @@ pkgver=master
 LICENSE=LICENSE
 
 fetch() {
-	git clone https://github.com/breadtard/uwuTools
+	git clone https://github.com/breadtard/uwuTools --depth 1 --jobs 5
 	cp -r uwuTools/$pkgname ./
 	rm -rf uwuTools
 }

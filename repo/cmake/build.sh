@@ -3,8 +3,8 @@ pkgname=cmake
 LICENSE=Copyright.txt
 
 fetch() {
-curl "https://cmake.org/files/v3.21/cmake-3.21.0.tar.gz" -o $pkgname-$pkgver.tar.gz
-tar -xf $pkgname-$pkgver.tar.gz
+	curl "https://cmake.org/files/v3.21/cmake-3.21.0.tar.gz" -o $pkgname-$pkgver.tar.gz
+	tar -xf $pkgname-$pkgver.tar.gz
 }
 
 build() {
