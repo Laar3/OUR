@@ -16,7 +16,6 @@ build() {
 package() {
         cd $pkgname-$pkgver
         make install
-        rm -rf byacc*
 }
 
 license() {
