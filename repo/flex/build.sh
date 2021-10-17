@@ -10,7 +10,7 @@ fetch() {
 build() {
         cd $pkgname-$pkgver 
         ./autogen.sh
-        ./configure 
+        ./configure --prefix=/usr
         make
 }
 
@@ -20,13 +20,6 @@ package() {
 }
 
 license() {
-	# Only changes that you possibly need to do but not neccesarily is that you change the folder to the one that is the equivilent of the
-	# zip's or tar's folder.
         cd $pkgname-$pkgver
         cat $LICENSE
 }
-fetch
-build
-package
-license
-
