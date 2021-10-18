@@ -23,8 +23,3 @@ license() {
         cd $pkgname-$pkgver
         cat $LICENSE
 }
-fetch
-build
-package
-license
-
