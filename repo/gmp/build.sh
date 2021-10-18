@@ -16,7 +16,7 @@ build() {
 
 package() {
         cd $pkgname-$pkgver
-        doas make install
+        make install
 }
 
 license() {
