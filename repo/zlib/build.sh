@@ -15,10 +15,15 @@ build() {
 
 package() {
         cd $pkgname-$pkgver
-        make install
+        doas make install
 }
 
 license() {
         cd $pkgname-$pkgver
         cat $LICENSE
 }
+fetch
+build
+package
+license
+
