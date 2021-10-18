@@ -3,7 +3,7 @@ pkgver=1.21
 LICENSE=COPYING
 
 fetch() {
-        curl -l "" -o $pkgname-$pkgver.tar.gz
+        curl -l "https://ftp.gnu.org/gnu/gdbm/gdbm-1.21.tar.gz" -o $pkgname-$pkgver.tar.gz
         tar -xf $pkgname-$pkgver.tar.gz
 }
 
@@ -15,7 +15,7 @@ build() {
 
 package() {
         cd $pkgname-$pkgver
-        make install 
+        doas make install 
 }
 
 license() {
