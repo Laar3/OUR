@@ -22,3 +22,4 @@ license() {
         cd $pkgname-$pkgver
         cat $LICENSE
 }
+ 
