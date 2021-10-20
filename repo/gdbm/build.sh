@@ -1,5 +1,5 @@
 pkgname=gdbm
-pkgver=1.21
+pkgver=1.22
 LICENSE=COPYING
 
 fetch() {
