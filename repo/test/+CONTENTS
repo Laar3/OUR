@@ -1,0 +1,588 @@
+@comment $OpenBSD: PLIST,v 1.18 2019/02/12 22:48:42 naddy Exp $
+@name bash-5.0.18
+@version 6
+@comment pkgpath=shells/bash ftp=yes
+@arch amd64
++DESC
+@sha 4RBA4qSBI5E2LaN+vA3dVjSvYJ45zYZU1OPQmOpz34o=
+@size 489
+@pkgpath shells/bash,static
+@depend devel/gettext,-runtime:gettext-runtime-*:gettext-runtime-0.21
+@wantlib c.96.0
+@wantlib curses.14.0
+@wantlib iconv.7.0
+@wantlib intl.7.0
+@cwd /usr/local
+@shell bin/bash
+@sha +hUkSSM24Q/2K7e3GhbCkOUFthZakLkIB34BO6YWUk4=
+@size 1171096
+@ts 1601496754
+bin/bashbug
+@sha uce+BWaFuACNqEYyW66mWxjXmXEgR0LAJfw9ZlWJa+o=
+@size 6693
+@ts 1601496751
+include/bash/
+include/bash/alias.h
+@sha sRedNJy2lXi32Upsc3g039AIpVyEZK6GHmU82gIoKPg=
+@size 2225
+@ts 1601496753
+include/bash/array.h
+@sha t0HTmzt3CvWVZpS0YaTdOf9BZfA0QS8Aa0GqQaRuYwE=
+@size 4172
+@ts 1601496752
+include/bash/arrayfunc.h
+@sha liGhezeDiQmj6pHVDi0aGTHcit5JecYPR51fOFccauY=
+@size 3561
+@ts 1601496752
+include/bash/assoc.h
+@sha S01aaKbZY0VnNC/CHmGAcz6zG8GUWxqqsnzRXO+ktqw=
+@size 2302
+@ts 1601496752
+include/bash/bashansi.h
+@sha DKLQuOCazT7Wh/28pEzOAi1g0x+/Dz0LM3a02QIuZzI=
+@size 1262
+@ts 1601496752
+include/bash/bashintl.h
+@sha PLMVKYZeuMz2MhXTqvRGhL7jC/aY9rHQ57n5Pue0MzE=
+@size 1462
+@ts 1601496752
+include/bash/bashjmp.h
+@sha KLi41IBzjudYBBuHQigivJIoQLWoskE7YO/WMbI3FrY=
+@size 1646
+@ts 1601496752
+include/bash/bashtypes.h
+@sha DFaZOLuLF++ZN7Zf98p18/mxSU/ndh3Gv++b4z51X4w=
+@size 1086
+@ts 1601496752
+include/bash/builtins/
+include/bash/builtins.h
+@sha AGuH5we1PaJEFBz/mNn7ZgJBpRYRgUH/zvZBFVYQ2AA=
+@size 2373
+@ts 1601496752
+include/bash/builtins/bashgetopt.h
+@sha LX32iyKlyrhf0uv+QBlZHmC/HIIJs+nqa/jgh0m0eWw=
+@size 1263
+@ts 1601496753
+include/bash/builtins/builtext.h
+@sha SXE7drpaXALyUwli0boNYfG1qjczP8U0cZxwKfgGTVk=
+@size 6715
+@ts 1601496753
+include/bash/builtins/common.h
+@sha zqsLbNeSdVzNGOJaQBItlC0jeQXCWcdw6RsmPqwF9GQ=
+@size 8372
+@ts 1601496753
+include/bash/builtins/getopt.h
+@sha 8zEJHS5X7eyUplPDHcjMWKCjBFJVlNTrKGbk2q+J5/g=
+@size 2582
+@ts 1601496753
+include/bash/command.h
+@sha HFeFHjvhEV/GZPsnvssLvHd1sbljGybmqAluAaH+4oM=
+@size 15490
+@ts 1601496752
+include/bash/config-bot.h
+@sha h3TI7bYLe+XpQuINF8rnLqmAK/y/Cxf1XXD7n3LIHI8=
+@size 6514
+@ts 1601496752
+include/bash/config-top.h
+@sha BFJK8ylHit1QpCkxo5BfsTkMQ/5+Iamzp4EDqQKdPA0=
+@size 7436
+@ts 1601496752
+include/bash/config.h
+@sha PY/XeLoCu5qhu0xUI+VkiG6fPUbn3lRBvXV0IW3g9cA=
+@size 32219
+@ts 1601496753
+include/bash/conftypes.h
+@sha +SsLNTO3pWGQ1cMUA6Z1zLF9ic/XcQ3KOWb8CMTvfaw=
+@size 1709
+@ts 1601496753
+include/bash/dispose_cmd.h
+@sha 5mLC167e8vi1UjqLtiF6IqFZra08GrdzYM0/Or1xSk0=
+@size 1397
+@ts 1601496752
+include/bash/error.h
+@sha yalhXaahggcmEEL8BO5psbvGMkzKt84K5rwCFITX9JI=
+@size 3053
+@ts 1601496752
+include/bash/externs.h
+@sha NUKoft01xG4XHEMJ1eiduxHtwSW33zYMwx5VsAWNmik=
+@size 18999
+@ts 1601496752
+include/bash/general.h
+@sha uUNKxYQup0zSjsOdfpQ+6DQI0rx4vcNTlGZEfASR5Gk=
+@size 11828
+@ts 1601496752
+include/bash/hashlib.h
+@sha qpz6rSn9JoL6cUWUsGY3zWMK754O943rs9dPKMaud7E=
+@size 3036
+@ts 1601496753
+include/bash/include/
+include/bash/include/ansi_stdlib.h
+@sha IIzBd1TrrMB569AJBo6W6Ml1kBcqJotNoaMrkvrzIk8=
+@size 1437
+@ts 1601496753
+include/bash/include/chartypes.h
+@sha CuYf6RM+2wKag1CbfqtSQo4E/QA2QgrA+KaFaIm0ygg=
+@size 4125
+@ts 1601496753
+include/bash/include/filecntl.h
+@sha D+ybTSVboZC10hPqfcjm5AhCOPyZudp+cgxN4+YykbQ=
+@size 1581
+@ts 1601496753
+include/bash/include/gettext.h
+@sha Fg0HctLlMRY7kZytqOwftQulhQfFkRfxjJHlV7mUnAU=
+@size 3014
+@ts 1601496753
+include/bash/include/maxpath.h
+@sha 1K1AkRJ6v7C5Mf4HscPjP7EJIiMJQQD36KVc6vgq8ko=
+@size 2113
+@ts 1601496753
+include/bash/include/memalloc.h
+@sha 70CTdW7OMxQmYsgs4SD0VR6Df4DAHNePVnprqEdG5Z8=
+@size 1994
+@ts 1601496753
+include/bash/include/ocache.h
+@sha sEmLkl52GFW10YrpdkU7PrA7lCMuwDSrkj5u04aNCdQ=
+@size 3669
+@ts 1601496753
+include/bash/include/posixdir.h
+@sha q6l0/Ovu+bOBNT9QcXWjmKWWYO2yTanI0f+WUVTFUgk=
+@size 2305
+@ts 1601496753
+include/bash/include/posixjmp.h
+@sha Snnl2DuehxU80FfXalsmFJIsBKW1ip9a6e0jY03HAmE=
+@size 1407
+@ts 1601496753
+include/bash/include/posixstat.h
+@sha 32QvPbXDd7O8CHoOOQ7v7VxMyo2enMl0mmJHYgV4EH0=
+@size 4318
+@ts 1601496753
+include/bash/include/posixtime.h
+@sha Gh9xXjoqGPYU6bUWu1mv+L+o/e4SI18x2Jn5zDLkIvw=
+@size 1509
+@ts 1601496753
+include/bash/include/posixwait.h
+@sha tISYibTzC9vIlAwDpGcy4iberhpG2V0BRluawdLs9Y0=
+@size 3068
+@ts 1601496753
+include/bash/include/shmbchar.h
+@sha 0gAqrXHAHRcEdv/qp/5pOjTX/vcsrA/k6UY0Ta/2erA=
+@size 4319
+@ts 1601496753
+include/bash/include/shmbutil.h
+@sha JrMOBQ0MDC55K2FAmoTAn2sddLMaTRwkWaNXhjOvnso=
+@size 13847
+@ts 1601496753
+include/bash/include/shtty.h
+@sha PIGVfyMSoh4GsYad1yxXc+A3ZKLZp92U+/dVzbTcie4=
+@size 3636
+@ts 1601496753
+include/bash/include/stat-time.h
+@sha trO7D5hqfFQgSNGoHJs8o4PZxr42H5B50eVYFksYgqE=
+@size 6088
+@ts 1601496753
+include/bash/include/stdc.h
+@sha cD/TxkQeho8oK+xD2o8dIhH9mjkdBVA2RiskTVX5Iec=
+@size 2652
+@ts 1601496753
+include/bash/include/systimes.h
+@sha 2h2SnFoAIfgDXcvWzX5D2RNIWBNGPNmhp+V6Q4qZtl8=
+@size 1778
+@ts 1601496753
+include/bash/include/typemax.h
+@sha UdYvEsMUdROZ7aAPxg0IKuDtg1iArvlm20Pg8BKL9JA=
+@size 2890
+@ts 1601496753
+include/bash/include/unionwait.h
+@sha WlyAJM4aZAvDudt0bNDT5I4gf0PBPP0h37agDIQeTYg=
+@size 2973
+@ts 1601496753
+include/bash/jobs.h
+@sha JhG0dp1oRZ6ObV0a4p1KV+sr9V5NXWk+wGfl0avZpxk=
+@size 9640
+@ts 1601496753
+include/bash/make_cmd.h
+@sha r3vh2InAN/2xG2JiKQKmaW2k2ITt23UmMwxRcKDjEQs=
+@size 2960
+@ts 1601496752
+include/bash/pathnames.h
+@sha Q/NX8rYT753QAnDsX2VcDCCetw6u98GMHE8ZUTrqPuU=
+@size 1214
+@ts 1601496753
+include/bash/quit.h
+@sha BjJoSRyG/uiphA1Z/OUVWkaaaCNHUDPvTrSZfhO5zdc=
+@size 2541
+@ts 1601496752
+include/bash/shell.h
+@sha xMUUdklN8NUIQemgouqUCwD1fqyOg70/OH2n9sDWe04=
+@size 5957
+@ts 1601496752
+include/bash/sig.h
+@sha ElQlyCM8Z8rX/K20PD34hxrSo5aO59safWs++aXybS4=
+@size 4485
+@ts 1601496752
+include/bash/siglist.h
+@sha 6/OnosvMrsuiCp1pzXH7PhO38UJhVi444aSh4MAsFdo=
+@size 1544
+@ts 1601496753
+include/bash/signames.h
+@sha cnpASUMZrAHJi/oChe+U6JEbPppGH6VpMBJWH5xm/dQ=
+@size 777
+@ts 1601496753
+include/bash/subst.h
+@sha mBp0PR7O9S8jLX5tDotn7iBaKapGXXwomihg/CIJdG4=
+@size 15135
+@ts 1601496752
+include/bash/syntax.h
+@sha NPP/S8JCd4pozMyJigOaTHveQ8pATUymAxPknBl8a6o=
+@size 3544
+@ts 1601496752
+include/bash/unwind_prot.h
+@sha T6okB0hcAE/9ayitUsVBkVfzIkDmMipOwsuxRR9Ww10=
+@size 2003
+@ts 1601496753
+include/bash/variables.h
+@sha XiHb5GZiarVZP4eC6bYHeeFAm+RaayLT5jJwOxPwrcA=
+@size 17643
+@ts 1601496752
+include/bash/version.h
+@sha aqacRmbU5Kh2IzBxwWHqx4eXF5xFmkDL08AJsth9C1c=
+@size 579
+@ts 1601496753
+include/bash/xmalloc.h
+@sha +NKKPj3AR05k0J4azyOB+taXc/iu6Qiu1WjaX4vH8mU=
+@size 1759
+@ts 1601496752
+include/bash/y.tab.h
+@sha x3U4uGhUrc7/tTkgV5FjB7kB+VUAQfTap5xagRBlCmA=
+@size 4293
+@ts 1601496753
+@info info/bash.info
+@sha RygLULI/2LJW0dDwkEfuyk1ZQOjpH7S42CVDboc+XVE=
+@size 524840
+@ts 1601496751
+lib/bash/
+lib/bash/Makefile.inc
+@sha PGOf3FKzgq9nUCe65WdxE6PlSUMFYF6cKcCzQvMNlVw=
+@size 2809
+@ts 1601496752
+@bin lib/bash/basename
+@sha RnQ/MQJJuC828VStwBxfhHSyJIzmajwKSlokbaJ0/Cc=
+@size 6456
+@ts 1601496754
+@bin lib/bash/dirname
+@sha JlTDUPaVPr1TeW86bG4BPSIRar44D9WOinDRdi8sAhs=
+@size 6208
+@ts 1601496754
+@bin lib/bash/fdflags
+@sha WD8LBsjo4IjYUyt3+z+KuVbur97xmBVv1Bh/zBY7Ur4=
+@size 10656
+@ts 1601496754
+@bin lib/bash/finfo
+@sha xlB8aUXq3XZV5wc52XfWcV0h5eUSVGo7ir3fLVXjOHA=
+@size 12776
+@ts 1601496754
+@bin lib/bash/head
+@sha zulQ1FEOSQFcs5Yk7+UGvlSCuS1opVr/SGBrf1qh7Xo=
+@size 8456
+@ts 1601496755
+@bin lib/bash/id
+@sha hKKyamW2/6TMZrflirc0aOc2OZ7gFej39rxLsOGsJ6I=
+@size 8776
+@ts 1601496755
+@bin lib/bash/ln
+@sha 9k1ilGD3IMscnSh0T/Wps7+kLD7ENq25MDe5O0b0HrY=
+@size 8512
+@ts 1601496755
+lib/bash/loadables.h
+@sha bWRURlxgMgUQb7DCl2beUfMc35ick/LL5oEU/p2ZC6Y=
+@size 993
+@ts 1601496752
+@bin lib/bash/logname
+@sha hUGP+sIEAytUsDAtP/ziGYxmy7I3IZ+UR5mzMjU+Vkk=
+@size 6056
+@ts 1601496755
+@bin lib/bash/mkdir
+@sha LfGX7XfHOBQs3yC760j7IKvTVuzhRgTAU1YoDr8IM/E=
+@size 9408
+@ts 1601496755
+@bin lib/bash/mypid
+@sha KrwfBhXvcUyEuXP3hcBr6ak09SVYUJAhbNTQDf6NbQA=
+@size 6224
+@ts 1601496755
+@bin lib/bash/pathchk
+@sha 8Tufk+NV48LBdjIFLcSFAn/TohFDseVxeIENKNH/HKs=
+@size 8384
+@ts 1601496755
+@bin lib/bash/print
+@sha Xh9egpDF7zUTr12PTgY4j4InVzsYttsGG6o1tM6S8DY=
+@size 8472
+@ts 1601496755
+@bin lib/bash/printenv
+@sha HrChTfbnGdJbc2oX+06VeFmyTWfiCj/g36p+NfFqrsU=
+@size 6632
+@ts 1601496755
+@bin lib/bash/push
+@sha /Ao5ddn7BWADn4eZ4qnYebdkTArMB5kZJe4Zro6qkgM=
+@size 8224
+@ts 1601496755
+@bin lib/bash/realpath
+@sha QhPc26TyMAkC3XWkyYTyU/Sdh6OK8rHubdMmW6U9pCU=
+@size 7352
+@ts 1601496755
+@bin lib/bash/rmdir
+@sha FmYXjy2Kj484QyiBZnlXuyM/4qaCmQpqB1xsQAPO82Q=
+@size 5920
+@ts 1601496755
+@bin lib/bash/seq
+@sha WuiqOCtY7mdFYHQPre0KUFgRjbKRC7zs2C36OvUF7UM=
+@size 13568
+@ts 1601496755
+@bin lib/bash/setpgid
+@sha QX/RyCa1mdlD/uy2C8EkStagUWfembJzbKPvZjiSaaU=
+@size 6432
+@ts 1601496755
+@bin lib/bash/sleep
+@sha 7L8dbIXs0ITQaSEhc9pzzbjMuI+P6Y/wZengWQ1lWS8=
+@size 5696
+@ts 1601496755
+@bin lib/bash/strftime
+@sha KWtb4IW6+06WBn/SCAyN74ebDAlOPrHEW2YdiLgeZow=
+@size 7104
+@ts 1601496755
+@bin lib/bash/sync
+@sha gkvfGtAUbmQABiBP/yefUi4U7AsIGF/9gAtMPlRoq8g=
+@size 5168
+@ts 1601496755
+@bin lib/bash/tee
+@sha w/iZ+5kTYqLmTdb+OMuFy18rvOjGygXqMkk5eb7EWDE=
+@size 7832
+@ts 1601496755
+@bin lib/bash/truefalse
+@sha 3CGObAS2AQlJ67wJKcLhJCTOAGG5G0+k4mfX+MK6GrM=
+@size 5560
+@ts 1601496755
+@bin lib/bash/tty
+@sha pia4l+vvFUjqe0NJxzTPVTrZi43seY30K78io7R+wDc=
+@size 6200
+@ts 1601496755
+@bin lib/bash/uname
+@sha MZ/gOeecPhS7dPTpTL7nr8aGe5fuBcS3zXRG4k9uWPA=
+@size 6888
+@ts 1601496756
+@bin lib/bash/unlink
+@sha MjK1/yjarbmQIJ+RcPg9pIIXHqdut98QUAizScp8Kqc=
+@size 5800
+@ts 1601496756
+@bin lib/bash/whoami
+@sha +4q9WACzN88tWV4qjEIOKMwzSMi8It+brZLk7tb2h30=
+@size 6040
+@ts 1601496756
+lib/pkgconfig/bash.pc
+@sha cLn+KEE6PU9Q/+w1XquwF+wGEiQ1XndipjfqqHbtuF4=
+@size 595
+@ts 1601496753
+@man man/man1/bash.1
+@sha EqbHJD/HOpdVHqUrx08Q1uqgyLn+3Nm0JgxT/15hOsw=
+@size 324888
+@ts 1601496751
+@man man/man1/bashbug.1
+@sha 43xOSB/dbJqoKhonCwLJc0ePQVquvsUhjskcTN3WroE=
+@size 1897
+@ts 1601496751
+share/doc/bash/
+share/doc/bash/CHANGES
+@sha AKZAKHIWqICCfZw+WZ5tu3sj6YQqz42s777cuAnHSYQ=
+@size 389824
+@ts 1601496751
+share/doc/bash/COMPAT
+@sha ePn2PIZKNG/04HevnxclxTrSHy3d0eA1bhoHEKghT+4=
+@size 21790
+@ts 1601496751
+share/doc/bash/FAQ
+@sha HYBy9abwcjEXbgyVtPgQeEMWRbbBrOYqOVPiCVBBT/M=
+@size 99591
+@ts 1601496751
+share/doc/bash/INTRO
+@sha iNT0OK9q8QjVlwrtOoggiilbba/C1VtUkWm7Cjcuwfs=
+@size 7072
+@ts 1601496751
+share/doc/bash/NEWS
+@sha JUPdg5sMayMGNGzm7mqfQxKWFPG/NNW26nNz8DD0g6M=
+@size 94539
+@ts 1601496751
+share/doc/bash/POSIX
+@sha gM73UgYFakTvgEh7G3DOg9dbmDtJy8HlLs15pOeUEQE=
+@size 10826
+@ts 1601496751
+share/doc/bash/RBASH
+@sha viTIuCrvKMibEdEnagyuF5LymAK4R81fixZIG3eF17I=
+@size 1693
+@ts 1601496751
+share/doc/bash/README
+@sha Lr1kVgxd42/h1RP78AFYYgdcJcOiP8KEjdL1dWDjjVo=
+@size 4332
+@ts 1601496751
+share/doc/bash/bash.html
+@sha 7I4j4plJLw7yWFH5O628PURq+SSiTZUfIhivG8VkeDI=
+@size 356551
+@ts 1601496751
+share/doc/bash/bashref.html
+@sha 3XcQEe/sSJWJXrqQvo4fJb8Pq3/vhM8LAGmXAl3Jqs0=
+@size 794296
+@ts 1601496751
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/bash.mo
+@sha 57lpbTvGaxd4zkPUsmX5RHsoV4O8IXOcwELIbviNNpU=
+@size 1321
+@ts 1601496751
+share/locale/bg/LC_MESSAGES/bash.mo
+@sha fIrAjj7YOWtAHMcD4TFAhTrQ552YsDRRbqA5TSchViQ=
+@size 209093
+@ts 1601496751
+share/locale/ca/LC_MESSAGES/bash.mo
+@sha zGZ2uRuYT9rjR0X/wLNJ7J0cZT+gBhzwkw9+KX3JBnQ=
+@size 152983
+@ts 1601496751
+share/locale/cs/LC_MESSAGES/bash.mo
+@sha LPOeKjeJGT6qKfviBa1XnKRvV04TiWyFcHclsdVM5wI=
+@size 176521
+@ts 1601496751
+share/locale/da/LC_MESSAGES/bash.mo
+@sha Q+4arV1AZpu7GzoG9L7hR3v8417pbN1AWGRTGDNKgU0=
+@size 77072
+@ts 1601496751
+share/locale/de/LC_MESSAGES/bash.mo
+@sha cuWMdnYn4xvEWKVNjz5Cd0UMbLzNjWWJfiHY6VOC1bI=
+@size 97913
+@ts 1601496751
+share/locale/el/LC_MESSAGES/bash.mo
+@sha hx76Bo198p2Hb4FIquPbVnqr/Yitc5Tcq8+A6vAKokk=
+@size 76580
+@ts 1601496751
+share/locale/en@boldquot/LC_MESSAGES/bash.mo
+@sha VGwtctQYmCz+phoJ4NuRhQY3y4JKIzMO7pbEgOeVeak=
+@size 170905
+@ts 1601496751
+share/locale/en@quot/LC_MESSAGES/bash.mo
+@sha UGzgkyfCz41gjeV9La2VwMcApc4JfC2p1rbpIrndoLE=
+@size 169297
+@ts 1601496751
+share/locale/eo/LC_MESSAGES/bash.mo
+@sha 1ZLVw6coLfRGu3bKzP5y95LICXdjDzdTAt0mYB3qapg=
+@size 144996
+@ts 1601496751
+share/locale/es/LC_MESSAGES/bash.mo
+@sha 2572kGN/YRsmKM+Cppbs38pxvLOl/lpvS+YclmNhv/4=
+@size 155319
+@ts 1601496751
+share/locale/et/LC_MESSAGES/bash.mo
+@sha V55t4Zq6I2ZDV3tuXCj7XHy+R7zJ0KDFryjVTXnmGVg=
+@size 12197
+@ts 1601496751
+share/locale/fi/LC_MESSAGES/bash.mo
+@sha 0W8mMAc5dmvWjfz1NeLyIxZeF6rprr72J/G6RMMKrkY=
+@size 79290
+@ts 1601496751
+share/locale/fr/LC_MESSAGES/bash.mo
+@sha U3I6tou/cb9WWRTGMYKztIHj2XjvR05q0xHurWzHT6Y=
+@size 180665
+@ts 1601496751
+share/locale/ga/LC_MESSAGES/bash.mo
+@sha 6OhFBm5WSo/Y98RJhAMlwXpSxySjwe1UhrTWU30JXJs=
+@size 114845
+@ts 1601496751
+share/locale/gl/LC_MESSAGES/bash.mo
+@sha R3UgjtLULbwxsN03qEXN7ILfFiL3YUnGlT3cwldxGJo=
+@size 56389
+@ts 1601496751
+share/locale/hr/LC_MESSAGES/bash.mo
+@sha 7OGpvdTw75Mka0UtHoJPY1nGkgBh2g9JafcQRkAza5M=
+@size 169690
+@ts 1601496751
+share/locale/hu/LC_MESSAGES/bash.mo
+@sha RVXHKZgp5RQr+gWPm3fRty3SDZra4gYv9IxXVxAvfF4=
+@size 154023
+@ts 1601496751
+share/locale/id/LC_MESSAGES/bash.mo
+@sha 2mSHaDha3s0XBzpNRwSP74UkH1jSXLGu6OKNk2Js0dE=
+@size 92810
+@ts 1601496751
+share/locale/it/LC_MESSAGES/bash.mo
+@sha FA2Nt4/ggpxeXJSO72LB97gA0UfQuzO0y/Db0TY9YVo=
+@size 90513
+@ts 1601496752
+share/locale/ja/LC_MESSAGES/bash.mo
+@sha yB8Zoru/t8XCrOqZIPD1X+X1psYTBg1S4kQ7J4nAsww=
+@size 106112
+@ts 1601496752
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/bash.mo
+@sha GoANzSnAKzKHcf+vN+W8GMGqllG5JJ77IOt88LCrTQE=
+@size 29300
+@ts 1601496752
+share/locale/nb/LC_MESSAGES/bash.mo
+@sha Lu1ul8r1djDl//0Y+VwLLXIHEiLNwH3jbXzFqz3Pqko=
+@size 146194
+@ts 1601496752
+share/locale/nl/LC_MESSAGES/bash.mo
+@sha FTZMAo/p5XKYYIMFn9jaSQUaL/OuwHtaufpOyJwtW8E=
+@size 152963
+@ts 1601496752
+share/locale/pl/LC_MESSAGES/bash.mo
+@sha TBNNQVwJi7HNlkB6XuPFIh49hXWxeeyfZ8929Q2Hc3I=
+@size 176038
+@ts 1601496752
+share/locale/pt/LC_MESSAGES/bash.mo
+@sha XYf+yGcGzsPbsHyjShpKWJ9hrL3zxHJkYZ0MQQshHgs=
+@size 171488
+@ts 1601496752
+share/locale/pt_BR/LC_MESSAGES/bash.mo
+@sha 4UTpCUEm4E/yWvnYxp1Md9fuJeRhVpj7jC9RadJeR2A=
+@size 175702
+@ts 1601496752
+share/locale/ro/LC_MESSAGES/bash.mo
+@sha gfSNl5roTcv21wuGddhoLxw9gyuYrV5vI+2NdIIoZRw=
+@size 9376
+@ts 1601496752
+share/locale/ru/LC_MESSAGES/bash.mo
+@sha eNOdG9ZJHusWUQ4C1Gs1+OpaP2yUR0wyaSK5KDtyFbk=
+@size 132729
+@ts 1601496752
+share/locale/sk/LC_MESSAGES/bash.mo
+@sha 9NbHGtLuUp1awhyTMudPoX7yXJ8N06uGiI92J9ZnIJk=
+@size 89749
+@ts 1601496752
+share/locale/sl/LC_MESSAGES/bash.mo
+@sha iw3LntnaTBarE6mIjJEqs3zLx1+9wC3QBf+7aI8tPls=
+@size 86849
+@ts 1601496752
+share/locale/sr/LC_MESSAGES/bash.mo
+@sha qhLPxyTYJ5xmLXLbyZQnkKcwv6dOn4oFWeh+DjH1A2g=
+@size 196182
+@ts 1601496752
+share/locale/sv/LC_MESSAGES/bash.mo
+@sha 3GhJj/5ceFdW3cIByc22Kk2U7qvqAvSYWSxiHT2+o08=
+@size 168964
+@ts 1601496752
+share/locale/tr/LC_MESSAGES/bash.mo
+@sha VVjbrXyTdSSaKiCU7WwJ12EABCdkxJim0snshbePcRs=
+@size 136380
+@ts 1601496752
+share/locale/uk/LC_MESSAGES/bash.mo
+@sha W11bvPc0GkNaABHkDi4npd8NcSHhE13BENR3/9KWLiU=
+@size 199487
+@ts 1601496752
+share/locale/vi/LC_MESSAGES/bash.mo
+@sha mppR8GJlXBASSrFVOjshB9PDT2AjeR5qXv+u8Uyu4KA=
+@size 148508
+@ts 1601496752
+share/locale/zh_CN/LC_MESSAGES/bash.mo
+@sha 7yp97fxRXI8B2pMR4tWkK0KmvIMq+4LGp1BppyareR4=
+@size 159999
+@ts 1601496752
+share/locale/zh_TW/LC_MESSAGES/bash.mo
+@sha WpfJfhX5mS75XKgOKcS13tBcVlpne757tJ2tofHSkgY=
+@size 160734
+@ts 1601496752
