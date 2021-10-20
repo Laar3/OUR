@@ -1,15 +1,10 @@
 pkgver=main
 pkgname=git
-pkgrel=1
-mkdeps="zlib-ng-dev:curl-dev:gmake"
-deps="zlib-ng:curl"
-bad="gmake"
-ext="doc"
 LICENSE=COPYING
 
 fetch() {
-	wget https://github.com/OrangeOperatingSystems/git/archive/refs/heads/main.zip
-	unzip $pkgver.zip
+	curl -L "https://github.com/OrangeOperatingSystems/git/archive/refs/heads/main.tar.gz" -o $pkgname-$pkgver.tar.gz
+	tar -xf $pkgname-$pkgver.tar.gz
 }
 
 build() {
